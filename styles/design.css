@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100vw;
     animation: fadeIn 1s ease;
-    background-image:url(../design/designbgtest-01.svg);
+    /*background-image:url(../design/designbgtest-01.svg);*/
     background-position:center center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -55,10 +55,10 @@
 
 
 h1{
-	padding: 0px 1rem 0px 14rem;
+	padding: 0px 1rem 0px 1rem;
 	text-align: right;
 	font-family: "voyager-bold";
-	font-size: 3.5rem;
+	font-size: 5rem;
     letter-spacing: 0.012em;
 }
 
@@ -72,8 +72,9 @@ h1{
 
 
 .mediterraneanBorder{
-	border-left: 6px solid #1289A7;
+	border-left: 8px solid #1289A7;
     padding-left: 1rem;
+    padding-right: 10rem;
 /*	border-width: 0px 0px 0px 6px;
     border-style: solid;
     -webkit-border-image: -webkit-linear-gradient(180deg, rgba(18,137,167,.8) 0%, rgba(87,88,187,.8) 33%, rgba(255,195,18,.8) 66%, rgba(181,52,113,.8) 100%);
@@ -320,6 +321,16 @@ h2 {
     display: inline-block;
 }
 
+.lowerz{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
 
 .hover{
     position: absolute;
@@ -413,5 +424,9 @@ h6 {
     border-image: linear-gradient(90deg, rgba(18, 203, 196, .8) 0%, rgba(196, 229, 56, .8) 33%, rgba(255,195,18,.8) 66%, rgba(247, 159, 31, .8) 100%);
     border-image-slice: 15;
     border-bottom: 4px solid rgba(18, 203, 196,1.0);*/
+}
+
+.row--centerFix{
+    padding-top: 25vh;
 }
 

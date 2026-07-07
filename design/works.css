@@ -764,6 +764,24 @@ a{
     position: relative;
 }
 
+.featureTitleHalf{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 8rem 0rem;
+}
+
+.featureTextHalf{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 8rem 0rem;
+}
+
 
 .quarters{
     width: 25%;
@@ -1451,6 +1469,14 @@ a{
     background-size: cover;
 }
 
+.molekule-approach{
+    background-image: url(../design/molekule_assets/filter_approach.png);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .span-drive-glance{
     background-image: url(../design/span_assets/drive_glance.png);
     background-position:center center;
@@ -1465,11 +1491,58 @@ a{
     background-size: cover;
 }
 
-.molekule-approach{
-    background-image: url(../design/molekule_assets/filter_approach.png);
+
+.span-drive-splash{
+    background-image: url(../design/span_assets/drive_splash.png);
     background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.dynamic-glance{
+    background-image: url(../design/span_assets/dynamic_glance.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rate-glance{
+    background-image: url(../design/span_assets/rate_glance.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spanDynamicOverview{
+    background-image: url(../design/span_assets/carHouse_overlay.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#span-exploration{
+    background-image: url(../design/span_assets/dynamicExploration.png);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#span-storyboard{
+    background-image: url(../design/span_assets/dynamicStoryboard.svg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.dynamic-result{
+    background-image: url(../design/span_assets/ChargeDynamically_Dimming_notrans.gif);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: contain;
+
+    height: 70vh;
+    padding:0;
+    margin:0;
 }
 
 
@@ -1493,7 +1566,7 @@ a{
 .sub-label{
     font-family: "voyager-medium";
     font-size: .9rem;
-    margin: 1rem auto .7rem auto;
+    margin: 1.1rem auto .53rem auto;
 /*    color: rgba(169,169,169,1);*/
 }
 
@@ -1699,6 +1772,17 @@ a{
     radial-gradient(99.84% 81.3% at 46.27% 47.11%, rgba(194, 194, 249, 0.79) 0%, rgba(194, 194, 249, 0.42) 100%), 
     radial-gradient(65.71% 65.45% at 43.47% 63.92%, rgba(172, 172, 229, 0.71) 0%, rgba(172, 172, 229, 0.26) 100%);
 
+}
+
+#designParticle-js{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
 }
 
 
@@ -2107,4 +2191,55 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1adae4",endCo
     text-align: center;
 }
 
+.splashImage{
+    height: 80vh;
+}
 
+.featuredetail{
+    font-family: 'voyager-regular', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 2.2rem;
+    margin: 0rem auto;
+    text-align: left;
+    width: 100%;
+}
+
+h4{
+    font-family: 'voyager-bold', sans-serif;
+    font-size: 2.5rem;
+    margin: 2rem 0px 2rem 0px;
+    width: 16vw;
+    padding-bottom: 16px;
+    line-height: 2.8rem;
+}
+
+
+.uxrCaption{
+    position: absolute;
+    height: 5.5vh;
+    bottom:0;
+    width: 100%;
+    line-height: 2rem;
+    display: block;
+    text-align: center;
+    font-family: 'voyager-regular';
+    font-size: .8rem;
+}
+
+
+.spanSoftBlack{
+    color: rgba(33, 33, 33, 1.0);
+}
+
+.spanDarkGray{
+    color: rgba(111, 112, 112, 1.0);
+}
+
+.spanSoftWhite{
+    color: rgba(250, 250, 250, 1.0);
+}
+
+.spanDriveTeal{
+    background-color: rgba(0, 176, 211, 1.0);
+}
